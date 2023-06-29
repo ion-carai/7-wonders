@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-titlu {
+    background-color: hsl(34, 74%, 77%);
+    color: #24b59d;
+    padding: 13px;
+
+}
+
+.sectiunea-de-nav {
+    background-color: #740000;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 17px;
+    font-weight: 400;
+    position: sticky;
+    top: 1px;
+    padding: 7px;
+    z-index: 1;
+
+}
+
+a:hover {
+    background-color: rgb(107, 118, 127);
+}
+
+a:active {
+    background-color: rgb(211, 73, 23);
+}
+
+.sectiunea-de-nav ul li {
+    display: inline-block;
+    margin: 0px 18px;
+
+
+}
+
+.sectiunea-de-nav ul li a {
+    text-decoration: none;
+    color: rgb(245, 187, 110);
+    border-radius: 5px;
+}
+
+.backgraund-color {
+    background-color: antiquewhite;
+}
+
+.tabel h2 {
+    text-decoration-line: underline;
+    text-decoration-color: #24b59c;
+    letter-spacing: 15px;
+    text-shadow: 2px 2px 4px rgb(60, 14, 14);
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+
+table {
+    margin-left: 58%;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid;
+    color: #740000;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.color-tr :hover {
+    background-color: #24b59dbd;
+}
+
+tr :hover {
+    background-color: #b33a0a36;
+}
+
+main p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 25px;
+}
+
+main video {
+    border-radius: 10px;
+    margin-left: 23px;
+    margin-bottom: 9px;
+}
+
+main iframe {
+    border-radius: 10px;
+    margin-left: 59%;
+    margin-bottom: 9px;
+}
+main h1{
+    margin-bottom: 19px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #b55024;
+}
